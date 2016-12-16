@@ -1,0 +1,45 @@
+<html><head>
+  <SCRIPT src="./web-files/dtjava.js"></SCRIPT>
+<script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'pl.myTunesApp.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0icGwubXlUdW5lc0FwcC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5wbC5teVR1bmVzQXBwPC90aXRsZT4NCiAgICA8dmVuZG9yPk1TSSBHUzQwIDZRRTwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJwbC5teVR1bmVzQXBwLmphciIgc2l6ZT0iMzI0ODUiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0icGwubXlUdW5lc0FwcCIgPg0KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9InBsLm15dHVuZXNhcHAuTWFpbkFwcCIgIG5hbWU9InBsLm15VHVuZXNBcHAiIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+        return false;
+    }
+</script>
+
+<script>
+    function javafxEmbedpl.mytunesapp() {
+        dtjava.embed(
+            {
+                id : 'pl.mytunesapp',
+                url : 'pl.myTunesApp.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxqbmxwIHNwZWM9IjEuMCIgeG1sbnM6amZ4PSJodHRwOi8vamF2YWZ4LmNvbSIgaHJlZj0icGwubXlUdW5lc0FwcC5qbmxwIj4NCiAgPGluZm9ybWF0aW9uPg0KICAgIDx0aXRsZT5wbC5teVR1bmVzQXBwPC90aXRsZT4NCiAgICA8dmVuZG9yPk1TSSBHUzQwIDZRRTwvdmVuZG9yPg0KICAgIDxkZXNjcmlwdGlvbj5udWxsPC9kZXNjcmlwdGlvbj4NCiAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgPC9pbmZvcm1hdGlvbj4NCiAgPHJlc291cmNlcz4NCiAgICA8ajJzZSB2ZXJzaW9uPSIxLjYrIiBocmVmPSJodHRwOi8vamF2YS5zdW4uY29tL3Byb2R1Y3RzL2F1dG9kbC9qMnNlIi8+DQogICAgPGphciBocmVmPSJwbC5teVR1bmVzQXBwLmphciIgc2l6ZT0iMzI0ODUiIGRvd25sb2FkPSJlYWdlciIgLz4NCiAgPC9yZXNvdXJjZXM+DQogIDxhcHBsZXQtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImNvbS5qYXZhZngubWFpbi5Ob0phdmFGWEZhbGxiYWNrIiAgbmFtZT0icGwubXlUdW5lc0FwcCIgPg0KICAgIDxwYXJhbSBuYW1lPSJyZXF1aXJlZEZYVmVyc2lvbiIgdmFsdWU9IjguMCsiLz4NCiAgPC9hcHBsZXQtZGVzYz4NCiAgPGpmeDpqYXZhZngtZGVzYyAgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9InBsLm15dHVuZXNhcHAuTWFpbkFwcCIgIG5hbWU9InBsLm15VHVuZXNBcHAiIC8+DQogIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KPC9qbmxwPg0K'
+            },
+            {
+                javafx : '8.0+'
+            },
+            {}
+        );
+    }
+    <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedpl.mytunesapp);
+</script>
+
+</head><body>
+<h2>Test page for <b>pl.myTunesApp</b></h2>
+  <b>Webstart:</b> <a href='pl.myTunesApp.jnlp' onclick="return launchApplication('pl.myTunesApp.jnlp');">click to launch this app as webstart</a><br><hr><br>
+
+  <!-- Applet will be inserted here -->
+  <div id='javafx-app-placeholder'></div>
+</body></html>

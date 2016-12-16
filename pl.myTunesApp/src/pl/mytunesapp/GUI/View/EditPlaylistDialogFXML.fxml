@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="223.0" prefWidth="359.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="pl.mytunesapp.GUI.Controller.EditPlaylistDialogController">
+  <children>
+    <Label layoutX="132.0" layoutY="33.0" text="Edit Playlist" />
+    <Label layoutX="42.0" layoutY="102.0" prefHeight="17.0" prefWidth="52.0" text="Name" />
+    <TextField fx:id="playlistDialogNameField" layoutX="94.0" layoutY="98.0" prefHeight="25.0" prefWidth="213.0" />
+    <Button fx:id="playlistDialogCancelButton" layoutX="193.0" layoutY="153.0" mnemonicParsing="false" onAction="#playlistDialogCancel" text="Cancel" />
+    <Button fx:id="playlistDialogSaveButton" layoutX="255.0" layoutY="153.0" minHeight="17.0" mnemonicParsing="false" onAction="#playlistDialogSave" prefHeight="21.0" prefWidth="52.000099999997474" text="Save" />
+  </children>
+</AnchorPane>
